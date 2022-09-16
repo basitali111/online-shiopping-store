@@ -1,0 +1,12 @@
+.Header-container {
+  display: flex;
+  gap: 25rem;
+  background-color: black;
+  padding: 0.5rem;
+  color: #fff;
+}
+
+.back {
+  margin-top: 10px;
+  margin-left: 10px;
+}
