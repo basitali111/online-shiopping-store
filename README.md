@@ -3,13 +3,13 @@
 Online Shop - A web application based on an external API which contains information about Products for sell. The web app allows the user to view one page with a list of Products that could be filtered by some parameters. it's a list of metrics that can be filtered by each specific item on sell. It also shows one page for the item details.
 
 ## Built With
-HTML
-CSS
-JavaScrpt
-REACT
-Fakestoreapi
+- HTML
+- CSS
+- JavaScrpt
+- REACT
+= Fakestoreapi
 Live Demo in progress , web app to be deployed...()
-Live Demo Link
+[Live Demo]('https://basit-online-shopping.netlify.app/')
 
  ## Setup
 To clone the repository run `` in your terminal
