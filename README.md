@@ -53,7 +53,6 @@ The project should be deployed and accessible online (add a link to the online v
 = Fakestoreapi
 Live Demo in progress , web app to be deployed...()
 [Live Demo]('https://basit-online-shopping.netlify.app/')
-
  ## Setup
 To clone the repository run `` in your terminal
 run cd Leaderboard
