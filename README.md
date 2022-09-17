@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Online Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Online Shop - A web application based on an external API which contains information about Products for sell. The web app allows the user to view one page with a list of Products that could be filtered by some parameters. it's a list of metrics that can be filtered by each specific item on sell. It also shows one page for the item details.
 
-## Available Scripts
+## Project requirements
+API First you need to choose an API to base the development of the webapp on. The API should allow you to get numeric values based on a parameter. We recommend that you choose an API that is open or needs an API key. If you choose an API that require authentication, you should implement it on your own.
 
-In the project directory, you can run:
+### Some example APIs are:
 
-### `npm start`
+Financial modeling prep API: stock data.
+Air pollution API: air quality data.
+You can find many APIs in this GitHub repo or in ProgrammableWeb. Some of the APIs requires a token for authentication and some others are just open.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You should follow these design guidelines, including:
+Colors (select one main color for your website).
+Typography: font face, size and weight.
+Layout: composition and space between elements.
+Original design idea by Nelson Sakwa on Behance.
 
-### `npm test`
+The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Interactions
 
-### `npm run build`
+## Home page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When the page loads, the webapp shows the list of categories that could be filtered out by some parameter, for example by the category name.
+Along with the category name, you will display some numeric values per category that come from the API.
+When the user clicks (or taps) on a category item, the application navigates to the details page.
+Details page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the details page, the webapp retrieves data from the API to show detailed data in the category.
+When the user clicks on the "Back" button (<), the user navigates to the home page.
+Testing requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create unit tests for pure functions in your Redux code.
+Create integration tests for your application using the React Testing Library.
+You may need to mock the access to the API, so that your tests don't send actual requests.
+You may need to mock the connection to the Redux Store.
+Technical requirements
 
-### `npm run eject`
+The project is a single-page application (SPA) built with React and Redux.
+The data retrieved from the API should be stored in the Redux store.
+You should filter the data that you retrieve from the API using a Filter stateless component.
+Every page (the main page and the pages for each item) should have a unique route within the SPA.
+The project should be deployed and accessible online (add a link to the online version of your app to your README file).
+## Built With
+- HTML
+- CSS
+- JavaScrpt
+- REACT
+= Fakestoreapi
+Live Demo in progress , web app to be deployed...()
+[Live Demo]('https://basit-online-shopping.netlify.app/')
+ ## Setup
+To clone the repository run `` in your terminal
+run cd Leaderboard
+run npm install
+run npm run build
+open the app directory using this > cd math-magician
+run npm start to view wbsite
+npm test Launches the test runner in the interactive watch
+Prerequisites
+-Github flow knowledge. -Basic CSS,HTML,JavaScript,React. -Installation of files.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Install
+Set up Github Actions
+Set up linter > Lighthouse . ,Stylelint ,
+Added Eslint
+REACT and redux installations
+npm install to add dependencies after cloning
+npm start to view website in browser
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
+👤 **Basit Ali**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [@githubhandle](https://github.com/basitali111)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/basit-ali-3961141b3/)
+- Twitter: [Twitter](https://twitter.com/BasitAl35031734)
+Acknowlwdgement
+Nelson Sakwa on Behance for design the Creative Commons License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🤝 Contributing
+Contributions and feature requests are welcome!
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
