@@ -14,10 +14,11 @@
 
 ## Live Demo Available click below...()
 
-[Live Demo Link](https://prismatic-banoffee-c996a7.netlify.app)
+[Live Demo Link](https://deploy-preview-1--basit-online-shopping.netlify.app/)
 
 ## Screenshot
-<img width="950" alt="image" src="https://user-images.githubusercontent.com/106079814/193268405-836722f5-6b4b-4966-847b-f10dca168ba6.png">
+![Screenshot 2023-02-03 092756](https://user-images.githubusercontent.com/63063973/216512712-3e88dffb-2685-4618-a033-f69e93366510.png)
+
 
 
 ### Setup
